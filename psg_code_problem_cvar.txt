@@ -1,0 +1,4 @@
+minimize
+  0.5*quadratic(matrix_indian_diabetes_quadratic)
+  +0.5 * cvar_risk(0.5, matrix_indian_diabetes_scenarios_1)
+Box: >= -1000.0, <= 1000.0
